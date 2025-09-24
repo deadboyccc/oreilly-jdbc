@@ -91,5 +91,6 @@ class Initializer(private val customerService: CustomerService) {
 }
 
 // --- Main ---
-fun main(args: Array<String>) =
-    runApplication<OreillyJdbcApplication>(*args)
+fun main() {
+    runApplication<OreillyJdbcApplication>()
+}

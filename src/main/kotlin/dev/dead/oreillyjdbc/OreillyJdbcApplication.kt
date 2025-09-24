@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service
 import javax.sql.DataSource
 
 @SpringBootApplication
-open class OreillyJdbcApplication
+class OreillyJdbcApplication
 
 // --- Domain ---
 data class Customer(val id: Int, val name: String)
